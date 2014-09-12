@@ -64,7 +64,7 @@ extern void SUSR_Task1(void)
 {
 		STRC_Trace(STRC_TSK_BEG_1);
 		P1OUT ^= BIT0;				// Toggle LED.
-		SUSR_Timebase();			// Re-init timer so new int in 100ms.
+		SUSR_Timebase();			// Update CCR0 so new timer interrupt in 100ms.
 		STRC_Trace(STRC_TSK_END_1);
 }
 //

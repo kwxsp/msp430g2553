@@ -23,7 +23,7 @@
 //*******************************************************************************
 //
 //	Hardware: MSP-EXP430G2 LaunchPad.
-//		TI MSP430G2553 processor with optional 32 kHz input crystal.
+//		TI MSP430G2553 processor (32 kHz external crystal optional).
 //
 // Functions:
 //  1) Run a timer to generate task intervals at 100ms, toggle LED.
@@ -34,7 +34,7 @@
 //
 // Complete MSP430G2553 (20-pin device) pin assignments for MSP-EXP430G2 LaunchPad.
 //
-//	1) =
+//	1)
 //	DVCC: Digital supply voltage
 //
 //	2)
@@ -127,8 +127,7 @@
 //	CAOUT: Comparator_A+, output
 //	UCB0SIMO: USCI_B0 SPI mode: slave in master out
 //	UCB0SDA: USCI_B0 I2C mode: SDA I2C data
-//	TDO/TDI: JTAG test data output terminal or test data input during programming and
-//	test
+//	TDO/TDI: JTAG test data output terminal or test data input during programming and test
 //
 //	16)
 //	RST*: Reset*

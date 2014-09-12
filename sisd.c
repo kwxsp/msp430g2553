@@ -56,7 +56,7 @@ __interrupt void SISD_ISR_ADC10( void )
 #pragma vector=COMPARATORA_VECTOR	/* 0xFFF6 Comparator A */
 #pragma vector=WDT_VECTOR			/* 0xFFF4 Watchdog Timer */
 //#pragma vector=TIMER0_A0_VECTOR	/* 0xFFF2 Timer0_A CC0 */
-#pragma vector=TIMER0_A1_VECTOR		/* 0xFFF0 Timer0)A CC1, TA0 */
+#pragma vector=TIMER0_A1_VECTOR		/* 0xFFF0 Timer0_A CC1, TA0 */
 #pragma vector=USCIAB0RX_VECTOR		/* 0xFFEE USCI A0/B0 Receive */
 #pragma vector=USCIAB0TX_VECTOR		/* 0xFFEC USCI A0/B0 Transmit */
 //#pragma vector=ADC10_VECTOR		/* 0xFFEA ADC10 */
@@ -69,7 +69,7 @@ __interrupt void SISD_ISR_ADC10( void )
 // Not implemented on MSP430G2553   /* 0xFFDC through 0xFFCD */
 __interrupt void SISD_ISR_Unimplemented( void )
 {
-	// Place breakpoint on following line to catch unimplimented interrupts.
+	// Place breakpoint on following line to catch unimplemented interrupts.
 	__bic_SR_register_on_exit(LPM3_bits);  	// Return from LPM to active mode.
 }
 

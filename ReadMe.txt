@@ -26,7 +26,7 @@
 
 *********************************************************************************************
 
-Initial population of files:
+Source, header, linker, text, and Git files:
 
 *.c    - C language source files
 *.h    - C language header files
@@ -37,9 +37,9 @@ Initial population of files:
 
 Files to support documentation:
 
-      *.docx - User Manual (MS Word 2007 format)
-      *.vsd  - Visio diagrams
-      *.wmf  - Windows metafiles (Visio diagrams prepped for Word)
+*.docx - User Manual (MS Word 2007 format)
+*.vsd  - Visio diagrams
+*.wmf  - Windows metafiles (Visio diagrams prepped for Word)
 *.jpg  - JPG images (tinyRTX logo)
 
 
