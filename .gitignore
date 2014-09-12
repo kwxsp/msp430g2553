@@ -1,0 +1,15 @@
+# TinyRTX ignore files, anywhere in the tree
+#
+# Zip archives
+*.zip
+#
+# Generated folders that contain build artifacts like object files
+/Debug
+/Release
+#
+# Generated file that is used to help display error messages in the problems view
+.xdchelp
+#
+# Generated folders
+/.config
+/.launches
